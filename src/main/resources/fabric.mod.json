@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.chiseledbrick.ChiseledFishAPI"
+			"com.chiseledbrick.fishapi.ChiseledFishAPI"
 		],
 		"fabric-datagen": [
-			"com.chiseledbrick.ChiseledFishAPIDataGenerator"
+			"com.chiseledbrick.fishapi.ChiseledFishAPIDataGenerator"
 		]
 	},
 	"mixins": [

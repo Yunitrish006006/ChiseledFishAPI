@@ -1,7 +1,7 @@
-package net.adaptor.fishing.event;
+package com.chiseledbrick.fishapi.event;
 
-import net.adaptor.fishing.FishTable;
-import net.adaptor.fishing.api.FishTableRegistry;
+import com.chiseledbrick.fishapi.FishTable;
+import com.chiseledbrick.fishapi.api.FishTableRegistry;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;

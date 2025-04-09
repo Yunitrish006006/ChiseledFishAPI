@@ -1,7 +1,7 @@
-package net.adaptor.fishing.api;
+package com.chiseledbrick.fishapi.api;
 
-import net.adaptor.fishing.FishTable;
-import net.adaptor.fishing.Main;
+import com.chiseledbrick.fishapi.ChiseledFishAPI;
+import com.chiseledbrick.fishapi.FishTable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +27,6 @@ public class FishTableRegistry {
         return tables;
     }
     public static void initializeTables() {
-        Main.LOGGER.info("Loaded {} recipes", tables.size());
+        ChiseledFishAPI.LOGGER.info("Loaded {} recipes", tables.size());
     }
 }

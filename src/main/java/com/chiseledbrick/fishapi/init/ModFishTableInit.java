@@ -1,9 +1,9 @@
-package net.adaptor.fishing.init;
+package com.chiseledbrick.fishapi.init;
 
-import net.adaptor.fishing.FishTable;
-import net.adaptor.fishing.Main;
-import net.adaptor.fishing.api.FishTableProvider;
-import net.adaptor.fishing.api.FishTableRegistry;
+import com.chiseledbrick.fishapi.ChiseledFishAPI;
+import com.chiseledbrick.fishapi.FishTable;
+import com.chiseledbrick.fishapi.api.FishTableProvider;
+import com.chiseledbrick.fishapi.api.FishTableRegistry;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
@@ -22,7 +22,7 @@ public class ModFishTableInit implements FishTableProvider {
                 .addEntityAttribute(
                         EntityType.SKELETON,
                         EntityAttributes.SCALE,
-                        new EntityAttributeModifier(Main.id("random_spawn_bonus_scale"), -0.9, EntityAttributeModifier.Operation.ADD_MULTIPLIED_BASE)
+                        new EntityAttributeModifier(ChiseledFishAPI.id("random_spawn_bonus_scale"), -0.9, EntityAttributeModifier.Operation.ADD_MULTIPLIED_BASE)
                 );
         FishTable fishes = new FishTable(Items.STICK)
                 .setResultEntities(EntityType.COD,EntityType.SLIME)
